@@ -1,12 +1,126 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+a {
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  
+  a:hover {
+    color: #535bf2;
+    font-weight: 500;
+  }
+  
+  body {
+    color: rgba(0, 0, 0, 0.87);
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/15/02/42/floor-1256804_1280.jpg");
+    object-fit:contain;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .noTask {
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px black;
+  }
+  
+  .container {
+    background-image: url("https://i.pinimg.com/736x/a2/3c/e4/a23ce481993d9c10b74e1cfc6a4de001.jpg");
+    object-fit: contain;
+    place-items: center;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 15px 15px black ;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 8rem;
+    margin-bottom: 10px;
+    text-shadow: 8px 8px black;
+  }
+  
+  #save {
+    position: block;
+    right: 34%;
+    place-items: center;
+    display: inline;
+    background-color: hsl(237, 18%, 49%);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 18px;
+    background-color:  #9397d7d2;
+    font-family: inherit;
+    cursor: pointer;
+    text-shadow: 1px 1px black;
+    box-shadow: 5px 5px black ;
+  }
+  
+  #save:active{
+    background-color: #88899d;
+  }  
+  #save:hover {
+    color: #96ffea;
+  }
+  input {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    box-shadow: 3px 3px black;
+    border-radius: 5px;
+  }
+  
+  ul {
+    position: relative;
+    width: 30rem;
+    background-color: #36363676;
+    border-radius: 5px;
+  }
+  
+  li {
+    place-items: center;
+    font-size: 25px;
+    bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    border-bottom: 1px solid aquamarine;
+    border-radius: 10px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+  }
+  
+  li:hover {
+  
+    padding-bottom: -1rem;
+    flex:content;
+    background-color: rgba(106, 193, 172, 0.228);
+    position:relative;
+  }
+  
+  li>button {
+    display: flex;
+    flex: wrap;
+    background-color: #1a1a1a00;
+    position: relative;
+  }
+  
+  .group-list-item:hover .delete-btn {
+    display: flex;
+    position: relative;
+    flex-direction:column;
+    padding: 0;
+    left: 16rem;
+    bottom: 1.2rem;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border: none;
+    text-shadow: 3px 2px black;
+  }
+  
+  #counter {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+  }
